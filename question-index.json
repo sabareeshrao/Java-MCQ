@@ -59,6 +59,25 @@
       "answers_included": true,
       "answer_count": 6,
       "question_count": 6
+    },
+    {
+      "id": "CH01-S03",
+      "chapter": "Chapter 1 — Java Installation and First Program",
+      "title": "Downloading and Installing the Java JDK",
+      "start": "00:00:58",
+      "end": "00:01:56",
+      "file": "chapter-01/section-01-03.md",
+      "status": "complete",
+      "question_ids": [
+        "CH01-S03-Q01",
+        "CH01-S03-Q02",
+        "CH01-S03-Q03",
+        "CH01-S03-Q04",
+        "CH01-S03-Q05"
+      ],
+      "answers_included": true,
+      "answer_count": 5,
+      "question_count": 5
     }
   ]
 }
