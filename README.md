@@ -5,13 +5,14 @@ This repository is the reference for independent Java section assessments based 
 ## Structure
 
 - `chapter-01/section-01-01.md` — Chapter 1, Section 1.1
+- `chapter-01/section-01-02.md` — Chapter 1, Section 1.2
 - `question-index.json` — Completed sections, stable question IDs, and question-bank rules
 
 ## Section format
 
-Every section contains its original transcript timestamp range, standalone context and 15 questions: 5 Easy, 5 Medium, 5 Hard.
+Every section contains its original transcript timestamp range, standalone context and 15 **answered** questions: 5 Easy, 5 Medium, 5 Hard. Each answer is placed immediately beneath its question. Easy still demands technical understanding at CSE graduate level.
 
-The content is independent study material. No narrator or instructor framing is used. Questions must remain within the scope of the corresponding transcript section, and answers are excluded until requested.
+The content is independent study material for recent CSE graduates without industry experience. No narrator or instructor framing is used. Every question has an **answer immediately below it**. Both questions and answers must remain strictly within the scope of the corresponding transcript section, without importing outside explanations or concepts. If the source does not establish a point, state that limit instead of guessing.
 
 ## Updating without duplicates
 
