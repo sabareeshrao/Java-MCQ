@@ -19,7 +19,8 @@
       "No duplicate files or IDs",
       "Retain question IDs when modifying unchanged concepts",
       "No-op when content unchanged"
-    ]
+    ],
+    "coverage_rationale": "Always include an explicit section-level coverage rationale tied to transcript subtopics and question IDs. If <15 questions, explain why that number covers all distinct important concepts without padding. If >15, explain why extra questions are necessary. At exactly 15, a coverage audit is still useful."
   },
   "sections": [
     {
@@ -78,6 +79,31 @@
       "answers_included": true,
       "answer_count": 5,
       "question_count": 5
+    },
+    {
+      "id": "CH01-S04",
+      "chapter": "Chapter 1 — Java Installation and First Program",
+      "title": "Downloading and Installing IntelliJ IDEA",
+      "start": "00:01:56",
+      "end": "00:03:34",
+      "file": "chapter-01/section-01-04.md",
+      "status": "complete",
+      "question_ids": [
+        "CH01-S04-Q01",
+        "CH01-S04-Q02",
+        "CH01-S04-Q03",
+        "CH01-S04-Q04",
+        "CH01-S04-Q05",
+        "CH01-S04-Q06",
+        "CH01-S04-Q07",
+        "CH01-S04-Q08",
+        "CH01-S04-Q09",
+        "CH01-S04-Q10"
+      ],
+      "answers_included": true,
+      "answer_count": 10,
+      "question_count": 10,
+      "coverage_rationale_included": true
     }
   ]
 }
