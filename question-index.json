@@ -9,7 +9,7 @@
     },
     "context_required": true,
     "timestamps_required": true,
-    "answers_included": false,
+    "answers_included": true,
     "independent_prose": true,
     "content_scope": "Only material actually present in the corresponding transcript section",
     "duplicate_checks": [
@@ -18,7 +18,8 @@
       "semantic duplicates across sections"
     ],
     "no_op_when_unchanged": true,
-    "audience": "Recent CSE graduate with academic CS fundamentals and no industry experience; Easy still requires substantive technical understanding, Medium emphasizes analysis/comparison, Hard emphasizes reasoned application within section scope."
+    "audience": "Recent CSE graduate with academic CS fundamentals and no industry experience; Easy requires technical understanding, Medium comparison/reasoning, Hard applied reasoning within the section's stated content.",
+    "answer_format": "Each question must be immediately followed by a concise, technically accurate answer grounded exclusively in its own transcript section. If the source does not establish something, state the limit without inventing details."
   },
   "sections": [
     {
@@ -45,7 +46,9 @@
         "CH01-S01-H03",
         "CH01-S01-H04",
         "CH01-S01-H05"
-      ]
+      ],
+      "answers_included": true,
+      "answer_count": 15
     },
     {
       "id": "CH01-S02",
@@ -71,7 +74,9 @@
         "CH01-S02-H03",
         "CH01-S02-H04",
         "CH01-S02-H05"
-      ]
+      ],
+      "answers_included": true,
+      "answer_count": 15
     }
   ]
 }
