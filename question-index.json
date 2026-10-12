@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "source": "Uploaded Java course transcript",
+  "rules": {
+    "questions_per_section": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 5
+    },
+    "context_required": true,
+    "timestamps_required": true,
+    "answers_included": false,
+    "independent_prose": true,
+    "content_scope": "Only material actually present in the corresponding transcript section",
+    "duplicate_checks": [
+      "stable question IDs",
+      "exact duplicate wording",
+      "semantic duplicates across sections"
+    ],
+    "no_op_when_unchanged": true
+  },
+  "sections": [
+    {
+      "id": "CH01-S01",
+      "chapter": "Chapter 1 — Java Installation and First Program",
+      "title": "Java Course Introduction and Project Overview",
+      "start": "00:00:00",
+      "end": "00:00:32",
+      "file": "chapter-01/section-01-01.md",
+      "status": "complete",
+      "question_ids": [
+        "CH01-S01-E01",
+        "CH01-S01-E02",
+        "CH01-S01-E03",
+        "CH01-S01-E04",
+        "CH01-S01-E05",
+        "CH01-S01-M01",
+        "CH01-S01-M02",
+        "CH01-S01-M03",
+        "CH01-S01-M04",
+        "CH01-S01-M05",
+        "CH01-S01-H01",
+        "CH01-S01-H02",
+        "CH01-S01-H03",
+        "CH01-S01-H04",
+        "CH01-S01-H05"
+      ]
+    }
+  ]
+}
