@@ -1,25 +1,25 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "source": "Uploaded Java course transcript",
   "rules": {
-    "questions_per_section": {
-      "easy": 5,
-      "medium": 5,
-      "hard": 5
-    },
+    "audience": "Recent CSE graduate with CS foundations, no industry experience required",
+    "question_count": "Dynamic with no fixed minimum or maximum; more than 15 for rich sections if justified, fewer than 15 for brief sections. No filler.",
+    "sequence": "One continuous sequence; build questions naturally from initial concepts and actual examples toward applied reasoning, only as supported in the current transcript section; no difficulty buckets.",
+    "question_ids": "CH##-S##-Q##, numbered in question order",
+    "answer_format": "Place an accurate, transcript-supported answer immediately after every question.",
     "context_required": true,
     "timestamps_required": true,
     "answers_included": true,
     "independent_prose": true,
-    "content_scope": "Only material actually present in the corresponding transcript section",
+    "no_instructor_mentions": true,
+    "scope": "Only the concepts, examples, procedures, commands and demonstrations of this exact transcript section; no material from later sections, no outside knowledge.",
     "duplicate_checks": [
-      "stable question IDs",
-      "exact duplicate wording",
-      "semantic duplicates across sections"
-    ],
-    "no_op_when_unchanged": true,
-    "audience": "Recent CSE graduate with academic CS fundamentals and no industry experience; Easy requires technical understanding, Medium comparison/reasoning, Hard applied reasoning within the section's stated content.",
-    "answer_format": "Each question must be immediately followed by a concise, technically accurate answer grounded exclusively in its own transcript section. If the source does not establish something, state the limit without inventing details."
+      "Read existing index and section files before writing",
+      "Check exact wording and semantic equivalents across all sections",
+      "No duplicate files or IDs",
+      "Retain question IDs when modifying unchanged concepts",
+      "No-op when content unchanged"
+    ]
   },
   "sections": [
     {
@@ -31,24 +31,14 @@
       "file": "chapter-01/section-01-01.md",
       "status": "complete",
       "question_ids": [
-        "CH01-S01-E01",
-        "CH01-S01-E02",
-        "CH01-S01-E03",
-        "CH01-S01-E04",
-        "CH01-S01-E05",
-        "CH01-S01-M01",
-        "CH01-S01-M02",
-        "CH01-S01-M03",
-        "CH01-S01-M04",
-        "CH01-S01-M05",
-        "CH01-S01-H01",
-        "CH01-S01-H02",
-        "CH01-S01-H03",
-        "CH01-S01-H04",
-        "CH01-S01-H05"
+        "CH01-S01-Q01",
+        "CH01-S01-Q02",
+        "CH01-S01-Q03",
+        "CH01-S01-Q04"
       ],
       "answers_included": true,
-      "answer_count": 15
+      "answer_count": 4,
+      "question_count": 4
     },
     {
       "id": "CH01-S02",
@@ -59,24 +49,16 @@
       "file": "chapter-01/section-01-02.md",
       "status": "complete",
       "question_ids": [
-        "CH01-S02-E01",
-        "CH01-S02-E02",
-        "CH01-S02-E03",
-        "CH01-S02-E04",
-        "CH01-S02-E05",
-        "CH01-S02-M01",
-        "CH01-S02-M02",
-        "CH01-S02-M03",
-        "CH01-S02-M04",
-        "CH01-S02-M05",
-        "CH01-S02-H01",
-        "CH01-S02-H02",
-        "CH01-S02-H03",
-        "CH01-S02-H04",
-        "CH01-S02-H05"
+        "CH01-S02-Q01",
+        "CH01-S02-Q02",
+        "CH01-S02-Q03",
+        "CH01-S02-Q04",
+        "CH01-S02-Q05",
+        "CH01-S02-Q06"
       ],
       "answers_included": true,
-      "answer_count": 15
+      "answer_count": 6,
+      "question_count": 6
     }
   ]
 }
