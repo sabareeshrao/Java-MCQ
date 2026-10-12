@@ -17,7 +17,8 @@
       "exact duplicate wording",
       "semantic duplicates across sections"
     ],
-    "no_op_when_unchanged": true
+    "no_op_when_unchanged": true,
+    "audience": "Recent CSE graduate with academic CS fundamentals and no industry experience; Easy still requires substantive technical understanding, Medium emphasizes analysis/comparison, Hard emphasizes reasoned application within section scope."
   },
   "sections": [
     {
@@ -44,6 +45,32 @@
         "CH01-S01-H03",
         "CH01-S01-H04",
         "CH01-S01-H05"
+      ]
+    },
+    {
+      "id": "CH01-S02",
+      "chapter": "Chapter 1 — Java Installation and First Program",
+      "title": "JDK, Compiler, Bytecode, and IDE",
+      "start": "00:00:32",
+      "end": "00:00:58",
+      "file": "chapter-01/section-01-02.md",
+      "status": "complete",
+      "question_ids": [
+        "CH01-S02-E01",
+        "CH01-S02-E02",
+        "CH01-S02-E03",
+        "CH01-S02-E04",
+        "CH01-S02-E05",
+        "CH01-S02-M01",
+        "CH01-S02-M02",
+        "CH01-S02-M03",
+        "CH01-S02-M04",
+        "CH01-S02-M05",
+        "CH01-S02-H01",
+        "CH01-S02-H02",
+        "CH01-S02-H03",
+        "CH01-S02-H04",
+        "CH01-S02-H05"
       ]
     }
   ]
