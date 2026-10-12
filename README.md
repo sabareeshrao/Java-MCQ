@@ -8,6 +8,7 @@ A standalone Java question bank grounded in the original uploaded course transcr
 |---|---|---:|---|
 | CH01-S01 — Java Course Introduction and Project Overview | 00:00:00–00:00:32 | 4 | [Section 1.1](chapter-01/section-01-01.md) |
 | CH01-S02 — JDK, Compiler, Bytecode, and IDE | 00:00:32–00:00:58 | 6 | [Section 1.2](chapter-01/section-01-02.md) |
+| CH01-S03 — Downloading and Installing the Java JDK | 00:00:58–00:01:56 | 5 | [Section 1.3](chapter-01/section-01-03.md) |
 
 The [question index](question-index.json) contains current section IDs, timestamp ranges, question counts, and question IDs.
 
