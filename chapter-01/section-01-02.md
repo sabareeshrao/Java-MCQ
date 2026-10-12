@@ -41,9 +41,10 @@ The IDE provides a workspace for writing code. It serves a different purpose fro
 
 5. **CH01-S02-E05:** Why is a dedicated coding workspace useful when a developer could also write source code in a general-purpose text editor such as Notepad?
 
-### Medium Questions (5)
 
    **Answer:** An IDE provides a dedicated workspace for writing code, whereas Notepad is a general-purpose text editor. The stated reason for using an IDE is that a basic editor may not be sufficient or convenient for coding.
+
+### Medium Questions (5)
 
 1. **CH01-S02-M01:** Explain the complete flow from writing Java source code to obtaining bytecode. Identify the responsibility of each component involved.
 
@@ -63,9 +64,10 @@ The IDE provides a workspace for writing code. It serves a different purpose fro
 
 5. **CH01-S02-M05:** A colleague describes the JDK as the workspace for writing Java code and the IDE as the tool responsible for producing bytecode. How should these responsibilities be corrected?
 
-### Hard Questions (5)
 
    **Answer:** The responsibilities are reversed: the **IDE** provides the workspace for writing Java code, and the **JDK contains the compiler** that transforms source code into bytecode.
+
+### Hard Questions (5)
 
 1. **CH01-S02-H01:** During a technical discussion, a candidate describes the following process:
 
